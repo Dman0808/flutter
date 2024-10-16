@@ -16,7 +16,6 @@ import 'arena.dart';
 import 'binding.dart';
 import 'constants.dart';
 import 'drag.dart';
-import 'drag_details.dart';
 import 'events.dart';
 import 'recognizer.dart';
 import 'velocity_tracker.dart';

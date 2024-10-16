@@ -7,7 +7,6 @@ import 'dart:ui' as ui;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 
-import 'basic.dart';
 import 'debug.dart';
 import 'framework.dart';
 import 'media_query.dart';

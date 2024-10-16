@@ -9,7 +9,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart';
 
-import 'object.dart';
 
 export 'package:flutter/services.dart' show
   MouseCursor,

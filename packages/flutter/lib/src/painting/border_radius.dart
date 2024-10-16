@@ -10,7 +10,6 @@ library;
 
 import 'package:flutter/foundation.dart';
 
-import 'basic_types.dart';
 
 /// Base class for [BorderRadius] that allows for text-direction aware resolution.
 ///
