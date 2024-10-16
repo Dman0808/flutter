@@ -7,10 +7,10 @@ import 'dart:io';
 import 'package:customer_testing/customer_test.dart';
 import 'package:file/file.dart';
 import 'package:file/memory.dart';
+import 'package:test/test.dart';
 
-import 'common.dart';
 
-void main() {
+Future<void> main() async {
   test('constructs expected model', () async {
     const String registryContent = '''
 contact=abc@gmail.com

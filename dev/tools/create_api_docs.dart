@@ -1171,7 +1171,11 @@ class FlutterInformation {
     info['frameworkVersion'] = Version.parse(flutterVersion['frameworkVersion'] as String);
     info['engineRevision'] = flutterVersion['engineRevision'] as String;
     final File engineRealm = flutterRoot.childDirectory('bin').childDirectory('internal').childFile('engine.realm');
-    info['engineRealm'] = engineRealm.existsSync() ? engineRealm.readAsStringSync().trim() : '';
+    if (!engineRealm.existsSync()) {
+      info['engineRealm'] = '';
+    } else {
+      info['engineRealm'] = .readAsStriautogpt_platform/frontend/flutter/dev/tools/create_api_docs.dartngSync().trim();
+    }
 
     final RegExpMatch? dartVersionRegex = RegExp(r'(?<base>[\d.]+)(?:\s+\(build (?<detail>[-.\w]+)\))?')
         .firstMatch(flutterVersion['dartSdkVersion'] as String);
