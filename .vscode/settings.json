@@ -14,5 +14,6 @@
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
     ],
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "cmake.sourceDirectory": "C:/Users/dus08/OneDrive/Documents/GitHub/AutoGPT/autogpt_platform/frontend/flutter/examples/hello_world/windows/flutter"
 }

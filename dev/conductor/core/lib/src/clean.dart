@@ -2,14 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+// ignore_for_file: prefer_relative_imports
+
 import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
+import 'package:conductor_core/src/state.dart' show defaultStateFilePath show defaultStateFilePath;
 import 'package:file/file.dart';
 import 'package:platform/platform.dart';
 
 import './globals.dart';
 import './repository.dart';
-import './state.dart';
 import './stdio.dart';
 
 const String kYesFlag = 'yes';
